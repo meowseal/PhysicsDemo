@@ -1,3 +1,4 @@
+// Initialize Class
 public class ObjectCircle {
     private final double mass;
     private final double radius;
