@@ -1,5 +1,7 @@
+// Circle Object
 public class ObjectCircle {
-    // Object Parts
+
+    // Object Properties
     private final double mass;
     private final double radius;
     private final double weight;
