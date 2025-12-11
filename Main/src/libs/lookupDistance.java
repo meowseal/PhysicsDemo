@@ -5,6 +5,12 @@ package libs;
 public class lookupDistance  {
     double distanceMultiplier = 0;
 
+    public lookupDistance(int localDistance)
+    {
+        distanceMultiplier = localDistance;
+
+    }
+
     // Set the multiplier
     public void setMultiplier(double multiply)
     {
@@ -26,7 +32,7 @@ public class lookupDistance  {
         else if (distance * distanceMultiplier < 80 && distance * distanceMultiplier >= 60) {return "*";}
         else if (distance * distanceMultiplier < 60 && distance * distanceMultiplier >= 40) {return "%";}
         else if (distance * distanceMultiplier < 40 && distance * distanceMultiplier >= 20) {return "$";}
-        else if (distance * distanceMultiplier < 20 && distance * distanceMultiplier >= 0) {return "@";}
+        else if (distance * distanceMultiplier < 20 && distance * distanceMultiplier > 0) {return "@";}
         else {return "#";}
 
     }
