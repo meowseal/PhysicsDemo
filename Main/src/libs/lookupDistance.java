@@ -1,7 +1,7 @@
 // package it into the library
 package libs;
 
-// initialize
+// initializer
 public class lookupDistance  {
     double distanceMultiplier = 0;
 

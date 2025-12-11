@@ -1,5 +1,7 @@
+package libs.Objects;
+
 // Circle Object
-public class ObjectCircle {
+public class Circle {
 
     // Object Properties
     private final double mass;
@@ -11,7 +13,7 @@ public class ObjectCircle {
     public double y;
 
     // object param constructor
-    public ObjectCircle(double mass, double radius, double x, double y)
+    public Circle(double mass, double radius, double x, double y)
     {
         this.mass = mass;
         this.radius = radius;
