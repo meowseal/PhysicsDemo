@@ -13,5 +13,6 @@ public class Main {
             looker.setMultiplier(3.0);
 
             System.out.println(looker.getChar(30));
+            System.out.println(looker.getChar(3));
         }
 }
