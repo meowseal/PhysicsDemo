@@ -19,8 +19,6 @@ public class Main {
         {
             loader.setMultiplier(looker.getMultiplier());
 
-
-
             // Set Distance Multiplier to 3
             looker.setMultiplier(3.0);
 

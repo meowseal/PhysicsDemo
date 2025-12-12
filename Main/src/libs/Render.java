@@ -9,19 +9,20 @@ public class Render {
 
 
 
-
+    // Constructor
     public Render(int screenX1, int screenY1)
     {
         screenX = screenX1;
         screenY = screenY1;
     }
 
+    // Set the Render multiplier
     public void setMultiplier(double multiplier)
     {
         looker.setMultiplier(multiplier);
 
     }
-
+    // return the render multiplier
     public double getMultiplier()
     {
         return looker.getMultiplier();
@@ -34,6 +35,7 @@ public class Render {
     // Clear the console for IntelliJ IDEA
     }
 
+    // Render a frame via {@screenX} and {@screenY}
     public void renderFrame() {
 
     }
